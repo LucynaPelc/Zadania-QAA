@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>JavaScript is fun!</title>
+  <link rel="stylesheet" href="style.css">
+
+  <script src="script.js"></script>
+
+</head>
+
+<body>
+  <h1 id="id01">Nagłówek</h1>
+</body>
+
+</html>
+
+
+// funkcja JS numer 1
+
+const numbers = [12, 14, 16, 18];
+const dubbleNumbers = numbers.map (number => number *2);
+console.log (dubbleNumbers);
+
+W tym przypadku testowym:
+* tworzymy funkcję (numbers).
+* tworzymy zmienną dubbleNumbers do utworzenie nowej tablicy z danymi
+* w zmiennej dubbleNumbers wpisujemy metodę map, która zwróci nam kopię tablicy number z taką samą liczbą elementów, 
+* za pomocą funkcji strzałkowej podwajamy liczby z tablicy numbers
+* wywołujemy wynik w konsoli za pomocą console.log()
+* w konsoli ma się wyświetlić tablica z czterema elementami [24, 28, 32, 36].
+
+
+
+
+//funkcja JS numer 2
+
+const students = [
+    { name: "Jan", score: 83 },
+    { name: "Anna", score: 59 },
+    { name: "Aleks", score: 37 },
+    { name: "Zofia", score: 94 },
+    { name: "Marek", score: 64 },
+  ];
+  
+  const names = students.map(student => student.name);
+  console.log(names); 
+
+
+  W tym przypadku testowym:
+  * tworzymy funkcję students
+  * wpisujemy w nią tablicę z fikcyjnymi danymi name i score.
+  * tworzymy zmienną names do utworzenia nowej tablicy z danymi names wszystkich studentów.
+  * w zmiennej name wpisujemy metodę map, która zwróci nak kopię tablicy z taką samą liczbą danych.
+  * za pomocą funkcji strzałkowej wyciągamy dane name z tablicy.
+  * wywołujemy nową tablicę w konsoli za pomocą console.log()
+  * w konsoli ma się wyświetlić tablica z pięcioma elementami ["Jan", "Anna", "Aleks", "Zofia", "Marek"]  .
+   
+
