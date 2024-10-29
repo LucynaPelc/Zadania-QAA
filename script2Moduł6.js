@@ -6,7 +6,7 @@ const Maciej={
         return this.userName;
     },
 }
-console.log(showName);
+console.log(Maciej.showName);
 
 //Obiekt Maciej, posiada elementy username z danymi w string, 
 //posiada metodę showName która zwraca nam za pomoca this i kropki 

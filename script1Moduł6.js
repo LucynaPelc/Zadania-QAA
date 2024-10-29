@@ -35,4 +35,15 @@ class pies {
 }
 console.log(pies);
 
+jeśli chcemy zobaczyć dane o psie 
+musielibyśmy dodać wewnątrz class Pies
+
+getInfo() {
+    return `Rasa: ${this.rasa}, Wiek: ${this.wiek}`;
+}
+
+I dopiero wtedy zwrócić wynik: 
+
+const mojPies = new Pies("Bulldog", 5);
+console.log(mojPies.getInfo());
 //This wywołuje rasę lub wiek psa
