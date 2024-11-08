@@ -14,4 +14,4 @@ ingredients.forEach((ingredient,index) =>{
   
 })
 console.log(ingredients);
-lists.append(ingredients);
+lists.append(...ingredients);
